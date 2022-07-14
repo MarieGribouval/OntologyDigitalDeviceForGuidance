@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gribouva1/ontologies/2022/3/untitled-ontology-90#"
+     xml:base="http://www.semanticweb.org/gribouva1/ontologies/2022/3/untitled-ontology-90"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aComposantElementaire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aComposantElementaire">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estComposantElementaireDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aImpact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aImpact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Impact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInformationContenu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInformationContenu">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInformationContenuDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterfaceUtilisateur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterfaceUtilisateur">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterfaceUtilisateurDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterlocuteur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterlocuteur">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterlocuteurDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aOutil -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aOutil">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estOutilDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSujetTest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSujetTest">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSujetTestDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestOutil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSupportDispositif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSupportDispositif">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSupportDispositifDe"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aTypeAnnuaire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aTypeAnnuaire">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estTypeAnnuaireDe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AnnuaireOutil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estComposantElementaireDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estComposantElementaireDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInformationContenuDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInformationContenuDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterfaceUtilisateurDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterfaceUtilisateurDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterlocuteurDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterlocuteurDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estOutilDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estOutilDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSujetTestDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSujetTestDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestOutil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSupportDispositifDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSupportDispositifDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estTypeAnnuaireDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estTypeAnnuaireDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AnnuaireOutil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aFaq -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aFaq">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aVideo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aVideo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#contientTemoignage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#contientTemoignage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#necessiteAutentification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#necessiteAutentification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#permetInstantaneite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#permetInstantaneite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AProposDuDispositifInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AProposDuDispositifInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AnnuaireOutil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AnnuaireOutil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aTypeAnnuaire"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Audio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlienExterne"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlinInterne"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Image"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Texte"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Video"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estComposantElementaireDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aOutil"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInformationContenu"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterfaceUtilisateur"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aImpact"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Impact"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSupportDispositif"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aFaq"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EmploiStageInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EmploiStageInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementDeFormationPostBacInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementDeFormationPostBacInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PostBacInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationDiplomePostBacInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationDiplomePostBacInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PostBacInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aComposantElementaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#contientTemoignage"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>InformationContenu</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceParPage"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MondeImmersif"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterfaceUtilisateurDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Communaute"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Etudiant"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Lyceen"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementLycee"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementSup"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Professionnel"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsyEn"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Robot"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estInterlocuteurDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceeInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceeInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OrientationInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OrientationInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estOutilDe"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#necessiteAutentification"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#OutilNumeriqueCommunication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aInterlocuteur"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aVideo"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#permetInstantaneite"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PostBacInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PostBacInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsychologiePersonnaliteInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsychologiePersonnaliteInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestInterets"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestMetier"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestPersonnalite"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSujetTestDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestOutil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationMobile"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationOrdinateur"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SiteWeb"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estSupportDispositifDe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestOutil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestOutil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#aSujetTest"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementScolaireTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtudiantTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceenTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelOrientationTypeAnnuaire"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelTypeAnnuaire"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#estTypeAnnuaireDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#AnnuaireOutil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#VieEtudianteInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#VieEtudianteInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationMobile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationMobile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationOrdinateur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationOrdinateur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Audio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Audio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Communaute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Communaute">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementScolaireTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementScolaireTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Etudiant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Etudiant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtudiantTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtudiantTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlienExterne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlienExterne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlinInterne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlinInterne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Image -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Image">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceParPage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceParPage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Lyceen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Lyceen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceenTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceenTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MondeImmersif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MondeImmersif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementLycee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementLycee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementSup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementSup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Professionnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Professionnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelOrientationTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelOrientationTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelTypeAnnuaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelTypeAnnuaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsyEn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsyEn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Robot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Robot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SiteWeb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SiteWeb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestInterets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestInterets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestMetier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestMetier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestPersonnalite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestPersonnalite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Texte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Texte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Video -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ComposantElementaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#DispositifNumerique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InformationContenu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceUtilisateur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Interlocuteur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Outil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SujetTest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SupportDispositifNumerique"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TypeAnnuaire"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationMobile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ApplicationOrdinateur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Audio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Communaute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtablissementScolaireTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Etudiant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#EtudiantTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#FormationTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlienExterne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#HyperlinInterne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Image"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#InterfaceParPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Lyceen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#LyceenTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MetierTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#MondeImmersif"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementLycee"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfEnseignementSup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Professionnel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelOrientationTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#ProfessionnelTypeAnnuaire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#PsyEn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Robot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#SiteWeb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestInterets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestMetier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#TestPersonnalite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Texte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisNumV2_29Avril#Video"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
