@@ -1,0 +1,1309 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gribouva1/ontologies/2022/3/untitled-ontology-90#"
+     xml:base="http://www.semanticweb.org/gribouva1/ontologies/2022/3/untitled-ontology-90"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aComposantElementaire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aComposantElementaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInformationContenu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInformationContenu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterfaceUtilisateur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterfaceUtilisateur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterlocuteur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterlocuteur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#OutildEchange"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aOutil -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aOutil">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSupportDispositif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSupportDispositif">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#SupportDispositifNumerique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#impactCollecte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#impactCollecte">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSujetDeTest -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSujetDeTest">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Test"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Interet </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Metier </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Personnalite</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aVideo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aVideo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#OutildEchange"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#annee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#annee">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Premiere</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Seconde</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Terminale</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientAnnuaire -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientAnnuaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientFaq -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientFaq">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientTemoignage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#contientTemoignage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#disponibilite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#disponibilite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Permanent</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Temporaire</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etapeDuProcessus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etapeDuProcessus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Cristallisation</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Execution</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>ExplorationApprofondie</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>ExplorationLarge</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#permetImmediatete -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#permetImmediatete">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#OutildEchange"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#requiereAuthentication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#requiereAuthentication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeDeBaccalaureat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeDeBaccalaureat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Général</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Professionnel</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Technologique</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeInterface -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeInterface">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>InterfaceParPage</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>MondeImmersif</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeSupport -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeSupport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#SupportDispositifNumerique"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>ApplicationMobile</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>ApplicationOrdinateur</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>SiteWeb</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDErgonomie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDErgonomie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeContenu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeContenu">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeNavigabilite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeNavigabilite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurGlobale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurGlobale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurHedonique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurHedonique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurImageDeMarque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurImageDeMarque">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurRepresentationGraphique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurRepresentationGraphique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurSociale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurSociale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilisabilite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilisabilite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilitaire -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilitaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aComposantElementaire"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#audio"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#image"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#texte"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#video"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#DispositifNumerique">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInformationContenu"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterfaceUtilisateur"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSupportDispositif"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#SupportDispositifNumerique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aOutil"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Impact">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurGlobale"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurHedonique"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurSociale"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilitaire"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationAProposDuDispositif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationAProposDuDispositif"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aComposantElementaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>InformationContenu</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationDiplomePostBac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationDiplomePostBac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPostBac"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationEmploiStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationEmploiStage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationEtablissementPostBac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationEtablissementPostBac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPostBac"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationLycee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationLycee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationMetier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationMetier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationOrientation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationOrientation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPostBac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPostBac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPsychologiePersonalite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationPsychologiePersonalite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationVieEtudiante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationVieEtudiante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InformationContenu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#InterfaceUtilisateur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#disponibilite"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Permanent</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Temporaire</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeInterface"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>InterfaceParPage</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>MondeImmersif</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterlocuteur"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#conseillerOrientation"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etudiant"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#lyceen"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurDuSuperieur"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurLycee"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professionnel"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#robot"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#requiereAuthentication"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#OutildEchange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#OutildEchange">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aInterlocuteur"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aVideo"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#permetImmediatete"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#SupportDispositifNumerique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#SupportDispositifNumerique">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#typeSupport"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>ApplicationMobile</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>ApplicationOrdinateur</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>SiteWeb</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Test">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#aSujetDeTest"/>
+                        <owl:allValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Interet </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Metier </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>Personnalite</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Outil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDErgonomie"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeContenu"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurDeNavigabilite"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurImageDeMarque"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurRepresentationGraphique"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#valeurUtilisabilite"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisateur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#impactCollecte"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Utilisabilite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#annee"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Premiere</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Seconde</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Terminale</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etapeDuProcessus"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Cristallisation</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Execution</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>ExplorationApprofondie</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>ExplorationLarge</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ProfEnseignementLycee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ProfEnseignementLycee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ProfEnseignementSup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ProfEnseignementSup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#audio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#audio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#conseillerOrientation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#conseillerOrientation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etudiant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#etudiant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#image -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#image">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#lyceen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#lyceen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurDuSuperieur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurDuSuperieur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurLycee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professeurLycee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professionnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#professionnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#robot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#robot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#Interlocuteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#texte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#texte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#video -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gribouva1/ontologies/2022/3/DisositifNumerique20Juillet2023#ComposantElementaire"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
